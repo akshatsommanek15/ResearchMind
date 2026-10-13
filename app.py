@@ -160,8 +160,8 @@ else:
         12. Do not add specific details, examples, layer numbers, or implementation
             steps unless they are supported by the context.
         13. Do not repeat the same information.
-        14. Provide answer with more technical depth.
-
+        
+        
         Context:
         {context}
 
