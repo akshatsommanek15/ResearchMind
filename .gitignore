@@ -1,0 +1,17 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local research PDFs (optional; recommended for large/private papers)
+research_papers/
