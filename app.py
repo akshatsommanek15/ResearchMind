@@ -154,12 +154,13 @@ else:
         6. ALWAYS format your answer as bullet points.
         7. Do not write long paragraphs.
         8. Start every point with "- ".
-        10. Do not include an introductory paragraph before the bullet points.
-        11. Output only the answer, without greetings or introductory phrases.
-        12. Include only claims supported by the provided context.
-        13. Do not add specific details, examples, layer numbers, or implementation
+        9. Do not include an introductory paragraph before the bullet points.
+        10. Output only the answer, without greetings or introductory phrases.
+        11. Include only claims supported by the provided context.
+        12. Do not add specific details, examples, layer numbers, or implementation
             steps unless they are supported by the context.
-        14. Do not repeat the same information.
+        13. Do not repeat the same information.
+        14. Provide answer with more technical depth.
 
         Context:
         {context}
