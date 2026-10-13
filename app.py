@@ -30,7 +30,7 @@ st.write(
     "Upload research papers and ask questions about them."
 )
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY" or st.secrets.get("GROQ_API_KEY"))
 if not groq_api_key:
     st.error("GROQ_API_KEY was not found in your .env file.")
     st.stop()
