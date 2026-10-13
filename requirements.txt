@@ -1,4 +1,4 @@
-treamlit
+streamlit
 python-dotenv
 langchain-community
 langchain-text-splitters
