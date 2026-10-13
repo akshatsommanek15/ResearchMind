@@ -197,7 +197,6 @@ else:
             )
         st.write("Answer:")
         st.write(response['answer'])
-        st.write("Sources")
 
         with st.expander("Sources and citations"):
                 seen = set()
